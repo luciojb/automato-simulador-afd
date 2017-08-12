@@ -16,14 +16,14 @@ public class TesteAFD {
 		
 		afd.inicializaAFD(
 				new String[][]{
-					{"estados/entradas", "0", "1"},
-					{"a"               , "b", "b"},
-					{"b"               , "c", "c"},
-					{"c"               , "d", "c"},
-					{"d"               , "d", "d"}
+					{"estados/entradas", "a" , "b" },
+					{"q0"              , "q1", "q0"},
+					{"q1"              , "q1", "q2"},
+					{"q2"              , "q1", "q3"},
+					{"q3"              , "q1", "q0"}
 				},
 				new String[]{
-						"d"
+						"q3"
 				}
 		);		
 		
